@@ -9,18 +9,8 @@
 </head>
 
 <body>
-    <video id="video" controls muted></video>
-
-    <script>
-        const video = document.getElementById('video')
-
-        navigator.mediaDevices
-            .getUserMedia({ audio: true, video: true })
-            .then(stream => {
-                video.srcObject = stream
-            })
-            .catch(error => console.error(error))
-    </script>
+    <div id="root"></div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
