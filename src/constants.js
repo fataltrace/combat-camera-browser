@@ -1,0 +1,5 @@
+export const WS_URI = 'ws://localhost:8080'
+export const API_TYPE_CANDIDATE = 'CANDIDATE'
+export const API_TYPE_OFFER = 'OFFER'
+export const API_TYPE_ANSWER = 'ANSWER'
+export const DEVICE_NAME = 'CAMERA'
